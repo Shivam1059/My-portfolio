@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navigation bar</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- Boxicon CSS -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Google Fonts Link For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+<body>
+  <!-- scroll to top button -->
+  <div class="scroll-btn">
+   <a href="#home"> <i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navbar section -->
+     <nav>
+      <div class="nav-bar">
+        <i class=" bx bx-menu siderbarOpen"></i>
+        <span class="logo"><a href="#">Portfolio.</a></span>
+         <div class="menu">
+          <div class="logo-toggle">
+            <span class="logo"><a href="#">Shivam Portfolio</a></span>
+            <i class='bx bx-x siderbarClose'></i>
+          </div>
+          <ul class="nav-links">
+           <li><a href="#home">Home</a></li>
+           <li><a href="#about">About</a></li>
+           <li><a href="#skills-bar">Skill</a></li>
+           <li><a href="#services">Services</a></li>
+           <li><a href="projects">Projects</a></li>
+           <li><a href="#contect">Contact</a></li>  
+         </ul>
+       </div>
+
+       <div class="darklight-searchBox">
+         <div class="dark-light">
+            <i class='bx bx-moon moon'></i>
+            <i class='bx bx-sun sun'></i>
+         </div>
+
+         <div class="searchBox">
+           <div class="searchToggle">
+             <i class='bx bx-x cancel'></i>
+             <i class='bx bx-search search'></i>
+           </div>
+             <div class="search-field">
+                 <input type="text" placeholder="Search.....">
+                 <i class='bx bx-search'></i>
+             </div>
+           </div>
+         </div>
+       </div>
+      </div>
+     </nav>
+
+
+    <!-- Home section start -->
+<section class="home" id="home">
+<div class="home-content">
+  <div class="text">
+    <div class="text-one">Hello,</div>
+    <div class="text-two">I'm a Shivam</div>
+    <div class="text-three">Web Developer</div>
+    <div class="text-four">From India</div>
+  </div>
+  <div class="button">
+    <button>Hire me</button>
+  </div>
+</div>
+</section>
+
+<!-- About Section start -->
+<div class="about" id="about">
+  <div class="content">
+    <div class="title"><span> About Me</span></div>
+    <div class="about-details">
+      <div class="right">
+        <img src="images/pg.jpg" alt="" srcset="">
+      </div>
+      <div class="left">
+        <div class="topic">Designing is My Passion</div>
+        <h3>I'am  Shivam Ahirwar</h3>
+        <p>I'm Self-taught Front-end Web Developer. My goal is to build a fast, flexible, responsive website that clearly communicates with visitors.and easy to accessible for every user. I am a IT engineering student from India and parsuing B.tech in IT, I have One year experience in the industrial field as a Front-end Web developer.</p>
+        <div class="button">
+          <button>Download CV
+            <i class="fa-solid fa-cloud-arrow-down"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+ <!-- skills  section start -->
+ <div class="skill-bar" id="skills-bar">
+ <div class="container">
+   <h3>Skills</h3>
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">HTML</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">90%</div>
+    </div>
+   </div>
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">CSS</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">80%</div>
+    </div>
+   </div>
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">JavaScript</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">60%</div>
+    </div>
+   </div>
+
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">MySQL</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">60%</div>
+    </div>
+   </div>
+
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">Python</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">55%</div>
+    </div>
+   </div>
+
+   <div class="box">
+    <P style="font-size: 25px; font-weight: bold;">C++</P>
+    <div class="progress_bar_box">
+      <div class="progress_bar">
+        <span class="line"></span>
+      </div>
+      <p class="increasing_percentage">0%</p>
+      <div class="total_percentage">50%</div>
+    </div>
+   </div>
+ </div>
+
+ <div class="container">
+ <div class="softskill">
+  <div class="skill-content">
+    <h1 style="text-align: center;">Soft Skill</h1>
+    <div class="image">
+      <img src="images/soft-skill.jpg" alt="" srcset="">
+      <p>I'm Self-taught Front-end Web Developer. My goal is to build a fast, flexible, responsive website that clearly communicates with visitors.and easy to accessible for every user. I am a IT engineering student from India and parsuing B.tech in IT, I have One year experience in the industrial field as a Front-end Web developer .</p>
+    </div>
+
+    <ul>
+    <div class="short" >
+      <p>communcation</p>
+      <a href="#"><img src="images/sa1.png" alt="" srcset=""></a>
+    </div>
+    <div class="short" >
+      <p>Thinking</p>
+      <a href="#"><img src="images/sa2.png" alt="" srcset=""></a>
+    </div>
+    <div class="short" >
+      <p>Leadership</p>
+      <a href="#"><img src="images/sa4.png" alt="" srcset=""></a>
+    </div>
+    <div class="short" >
+      <p>Team-work</p>
+      <a href="#"><img src="images/sa3.png" alt="" srcset=""></a>
+    </div>
+    </ul>
+  </div>
+ </div>
+</div>
+
+ </div>
+
+  <!-- softskill section -->
+  <!-- <div class="container_1">
+
+    <div class="circular_progress">
+      <span class="progress-value">0%</span>
+    </div>
+    <span class="text-a">HTML & CSS</span>
+  </div>-->
+
+
+
+    <!-- services section -->
+<section class="services" id="services">
+  <div class="content">
+    <div class="title"><span>My services</span></div>
+    <div class="boxes">
+
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="topic"> Web Development</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur
+          Lorem ipsum dolor sit, amet consectetur eos? </p>
+      </div>
+     
+
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-paint-brush"></i>
+        </div>
+        <div class="topic">Grapic Design</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur
+          Lorem ipsum dolor sit, amet consectetur eos? </p>
+      </div>
+ 
+
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-chart-line"></i>
+        </div>
+        <div class="topic">Digital Marketing</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur
+          Lorem ipsum dolor sit, amet consectetur eos? </p>
+      </div>
+    
+
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="topic">Icon Design</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur 
+          Lorem ipsum dolor sit, amet consectetur eos?
+        </p>
+      </div>
+  
+
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-camera-retro"></i>
+        </div>
+        <div class="topic"> Photography</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur 
+          Lorem ipsum dolor sit, amet consectetur eos?
+        </p>
+      </div>
+  
+      <div class="box">
+        <div class="icon">
+          <i class="fas fa-desktop"></i>
+        </div>
+        <div class="topic"> App Development</div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A voluptatibus vero tenetur
+          Lorem ipsum dolor sit, amet consectetur eos? </p>
+      </div>
+      </div>
+  </div>
+</section>
+
+ <!-- projects section -->
+
+ <section> 
+  <div class="container_x" >
+    <div class="content" id="projects">
+      <div class="title"><span>My Projects</span></div>
+    </div>
+    <div class="slider-wrapper">
+    
+      <ul class="image-list">
+        <a href=""><img class="image-item" src="images/img-1.jpg" alt="img-1" /></a>
+        <img class="image-item" src="images/img-2.jpg" alt="img-2" />
+        <img class="image-item" src="images/img-3.jpg" alt="img-3" />
+        <img class="image-item" src="images/img-4.jpg" alt="img-4" />
+        <img class="image-item" src="images/img-5.jpg" alt="img-5" />
+        <img class="image-item" src="images/img-6.jpg" alt="img-6" />
+        <img class="image-item" src="images/img-7.jpg" alt="img-7" />
+        <img class="image-item" src="images/img-8.jpg" alt="img-8" />
+        <img class="image-item" src="images/img-9.jpg" alt="img-9" />
+        <img class="image-item" src="images/img-10.jpg" alt="img-10" />
+      </ul>
+     
+    </div>
+    <div class="slider-scrollbar">
+      <!-- <div class="scrollbar-track">
+        <div class="scrollbar-thumb"></div>
+      </div> -->
+    </div>
+  </div>
+  </section>
+  
+
+<!-- contect section -->
+
+  <!-- <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+  </div> -->
+<!-- </div> -->
+
+<!-- contact section star new -->
+
+  <div class="content" id="contect" >
+    <div class="title"><span>Contact Me</span></div>
+  </div>
+ <div class="contect"> 
+  <div class="content">
+    <div class="left-side">
+    <div class="address details">
+      <i class="fas fa-map-marker-alt"></i>
+      <div class="topic">Address</div>
+      <div class="text-one">Shivay MP09</div>
+      <div class="text-two">Indore 09 ,India</div>
+    </div>
+
+    <div class="phone details">
+      <i class="fas fa-phone-alt"></i>
+      <div class="topic">Phone</div>
+      <div class="text-one">+0098 9883 5647</div>
+      <div class="text-two">+0096 3434 5678</div>
+    </div>
+
+    <div class="email details">
+      <i class="fas fa-envelope"></i>
+      <div class="topic">Email</div>
+      <div class="text-one">shivay@gamil.com</div>
+      <div class="text-two">info.shivay@gamil.com</div>
+    </div>
+    </div>
+
+    <div class="right-side">
+      <div class="topic-text">Send us a message</div>
+      <p>If you have any work from me or any types of quries related to my tutorial, you can send me  message from here. it's my pleasure to help you.</p>
+
+      <form action="#">
+       <div class="input-box">
+      <input type="text" placeholder="Enter your name">
+       </div>
+       <div class="input-box">
+      <input type="text" placeholder="Enter your email">
+       </div>
+       <div class="input-box message-box">
+     <textarea name="" id="" cols="30" rows="3"></textarea>
+       </div>
+       <div class="button"> 
+      <input type="button" value="Send Now">
+       </div>
+      </form>
+    </div>
+  </div>
+ </div>
+</div>
+
+<!-- footer secction -->
+<footer>
+  <div class="footer-content">
+    <h3>Shivam Portfolio</h3>
+    <p>Connct with me on other social media platform</p>
+   <ul class="socials">
+    <li><a href="https://www.linkedin.com/in/shivam-ahirwar987/"><i class="fa-brands fa-linkedin"></i></a></li>
+    <li><a href="https://twitter.com/Shivam1059"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+    <li><a href="https://www.instagram.com/shivamindian20/?igshid=OGQ5ZDc2ODk2ZA%3D%3D"><i class="fa-brands fa-square-instagram"></i></a></li>
+    <li><a href="https://github.com/Shivam1059"><i class="fa-brands fa-github"></i></a></li>
+   </ul>
+   <div class="footer-bottom">
+    <p>all copyright &copy;2024 shivam portfolio. designed by <span>Shivam</span></p>
+   </div>
+  </div>
+</footer>
+<!-- javascript link -->
+<script src="script.js"></script>
+</body>
+</html>
